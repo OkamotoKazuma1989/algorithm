@@ -25,28 +25,3 @@ def get_prime(n):
     return prime + data
 
 print(get_prime(200))
-
-"""
-# 割り切れない数だけを取り出す
-    for j in deta:
-        if j % data[0] != 0:
-            deta = [j]
-
-    return prime + deta
-
-print(get_prime(1))
-
-
-def is_prime(n):
-    if n <= 1:
-        return False
-    for i in range(2, int(math.sqrt(n)) + 1):
-    # math.sqrtは平方根を返すメソッド
-        if n % i == 0:
-            return False
-    return True
-
-for i in range(200):
-    if is_prime(i):
-        print(i)
-"""
